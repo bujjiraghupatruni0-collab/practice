@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>functions</title>
+    <link rel="stylesheet" href="styles.css">
+</style>
+<body>
+  <form class="body">
+    <div>
+      <h1 class="h1">function:</h1>
+    <label>number1</label><br>
+    <input type="text" id="Num1" placeholder="num1"><br><br>
+    <label>number2</label><br>
+    <input type="text" id="Num2" placeholder="num2"><br><br>
+    <button onclick="Add()">Add</button>
+    <div id="result"></div>
+
+    <script>
+      function Add(){
+        let i=Number(document.getElementById("Num1").value);
+        let j=Number(document.getElementById("Num2").value);
+        document.getElementById("result").innerHTML=i+j;
+      }
+    </script>
+    </div>
+  </form>
+</body>
+</html>

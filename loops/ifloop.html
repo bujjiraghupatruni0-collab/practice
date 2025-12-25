@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>if loop</title>
+</head>
+<body>
+    <input type="text" placeholder="given number" id="num">
+    <button onclick="check()">check number</button>
+    <div id="check"></div>
+    <script>
+        function check(){
+            let i=Number(document.getElementById("num").value);
+            if(i%2==0 ){
+                window.alert(i+"is an even number ")
+            }
+            else{
+                window.alert(i+"is not a odd number")
+            }
+        } 
+    </script> 
+</body>
+</html>

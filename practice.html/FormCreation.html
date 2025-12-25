@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>project_1</title>
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+<style> 
+    div{
+        border:4px solid green;
+        width:400px;
+        padding: 20px;
+        margin-top: 10px;
+    }
+</style>    
+</head>
+    <body>
+        <form>
+        <div>
+            <label for="name">Name</label>
+            <br>
+            <input type="text" placeholder="Enter your name" id="name" class="form-control" name="name">
+            <br>
+            <label for="email">Email</label>
+            <br>
+            <input type="email" placeholder="Enter your email" id="email" class="form-control" name="email">
+            <br>
+            <label for="age">Age</label>
+            <br>
+            <input type="text" placeholder="Enter your age" id="age" class="form-control" name="age">
+            <br>
+            <label for="profession">Which option best describes you?</label>
+            <br>
+            <select id="profession">
+                <option value="">---select---</option>
+                <option value="student">Student</option>
+                <option value="Working Professional">Working Professional</option>
+                <option value="Freelancer">Freelancer</option>
+                <option value="Other">Other</option>
+                </option>
+            </select>
+            <br><br>
+            <label>Would you recommend GeeksforGeeks to a friend?</label>
+            <br>
+            <input type="radio" name="friend">Yes<br>
+            <input type="radio" name="friend">No<br>
+            <input type="radio" name="friend">Maybe
+            <br><br>
+            <label>Languages and Frameworks Known
+            </label>
+            <br>
+            <input type="checkbox">C<br>
+            <input type="checkbox">C++<br>
+            <input type="checkbox">Java<br>
+            <input type="checkbox">Python<br>
+            <input type="checkbox">javascript<br>
+            <input type="checkbox">React<br>
+            <input type="checkbox">Angular<br>
+            <input type="checkbox">Django<br>
+            <input type="checkbox">Spring<br>
+            <br>
+            <label>Any Comments or Suggestions </label><br>
+            <textarea placeholder="Enter your comment here" class="form-control" name="comment"></textarea><br>
+            
+            <button type="submit" class="btn btn-success form-control">Submit</button>
+        </div>
+    </form>
+    </body>
+</html>

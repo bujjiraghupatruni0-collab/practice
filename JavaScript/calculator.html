@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculator1</title>
+</html>
+    <body>
+        <h1>Calculator1</h1>
+        <label>number1</label><br>
+        <input type="text" placeholder="Num1" id="Num1"><br><br>
+        <label>number2</label><br>
+        <input type="text" placeholder="Num2" id="Num2"><br><br>
+        <button onclick="add()">Add</button>
+        <button onclick="sub()">Sub</button>
+        <button onclick="mult()">Mult</button>
+        <button onclick="div()">Div</button>
+        <div id="result"></div>
+        <script>
+            function add(){
+                let i=Number(document.getElementById("Num1").value);
+                let j=Number(document.getElementById("Num2").value);
+                document.getElementById("result").innerHTML=i+j;
+            }
+            function sub(){
+                let i=Number(document.getElementById("Num1").value);
+                let j=Number(document.getElementById("Num2").value);
+                document.getElementById("result").innerHTML=i-j;
+            }
+            function mult(){
+                let i=Number(document.getElementById("Num1").value);
+                let j=Number(document.getElementById("Num2").value);
+                document.getElementById('result').innerHTML=i*j;
+                console.log();
+            }
+            function div(){
+                let i=Number(document.getElementById("Num1").value);
+                let j=Number(document.getElementById("Num2").value);
+                document.getElementById("result").innerHTML=i/j;
+            }
+        </script>
+    </body>
+</html>
