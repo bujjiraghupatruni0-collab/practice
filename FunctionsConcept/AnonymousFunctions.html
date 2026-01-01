@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Anonymous Function:</h1>
+    <p>it is a function without a name.</p>
+    <h3>3 ways of Anonymous Functions:</h3>
+    <label1>1.Immediate Invoking</label1><br>
+    <label2>2.Assign to one variable</label2><br>
+    <label3>3.As a callback</label3><br><br><br>
+    <label1>1.Immediate Invoking:</label1>
+    <p>definition:A function Immediatly calling by using <strong>Paranthesis()</strong></p>
+    <label>example:</label><br>
+    <script>
+        (function fn(a){
+            document.write(10).innerHTML;
+
+        })
+    </script><br><br>
+    <label2>2.Assign to one variable:</label2><br>
+    <p>definition:Assign to one variable and invok it(call it) by using variable key</p>
+    <label>example:</label><br>
+    <script>
+        var value=(function fn(a){
+            document.write(20).innerHTML;
+
+        })
+        value();
+    </script><br><br>
+    <label>3.As a callback:</label><br>
+    <p>definition:one function pass as an argument to another function</p>
+    <label>example:</label><br>
+    <script>
+        function fn(a){
+            a();
+        }
+        fn (function(){
+            document.write(3).innerHTML;
+        });
+    </script>
+</body>
+</html>
