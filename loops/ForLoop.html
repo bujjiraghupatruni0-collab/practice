@@ -1,16 +1,17 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <script>
-        for(i=6; i>=0; i--){
-            for(j=1; j<=10; j++)
-            console.log(i+"X"+j+"="+i*j);
-        }
-    </script>
-</body>
-</html>
+function Arth(){
+    this.n1=10;
+    this.sum=function(){
+        console.log(this.n1+this.n2)
+    }
+
+}
+class Arth{
+    constructor(){
+        this.n1=10;
+    }
+    sum(){
+        console.log(this.n1+this.n2)
+    }
+}
+var obj=new Arth()
+obj.sum()

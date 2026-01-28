@@ -1,0 +1,10 @@
+.p{
+    column-width: 2px;
+    color: blueviolet;
+}
+#i{
+    color: #d87093;
+}
+div :nth-child(1){
+    border-color: blue;
+}

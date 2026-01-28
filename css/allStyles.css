@@ -1,0 +1,40 @@
+h1,h3 {
+    color:blue;
+}
+li:first-child{
+    color: aqua;
+
+}
+li:last-child{
+    color: blueviolet;
+}
+li:nth-last-child(3){
+    color: brown;
+}
+div:hovor{
+    background-color: yellow;
+}
+ul li{
+    color: yellowgreen;
+}
+
+.orderList {
+    border: 2px solid red;
+    width: fit-content;
+    padding-right: 15px;
+  
+
+}
+div:nth-child(3){
+    position:absolute;
+    bottom: 20px;
+    left:100px;
+    right: 50px;
+    top:10px;
+}
+div:nth-child(3){
+    position:relative;
+}
+h3:nth-child(3){
+    position: fixed;
+}
